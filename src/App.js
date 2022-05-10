@@ -20,6 +20,15 @@ const dati = [
     image:
       "https://images.unsplash.com/photo-1511044568932-338cba0ad803?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
   },
+  {
+    name: "Bobs",
+    species: "Bruņurupucis",
+    age: 43,
+    description:
+      "Bobs ir lēnīgs, bet tik un tā aizbēga no savām iepriekšējām mājām.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c8/Turtle_turtle_turtle.jpg",
+  },
 ];
 
 function App() {

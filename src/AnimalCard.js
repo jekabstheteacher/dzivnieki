@@ -1,4 +1,4 @@
-import { Text, Card, Image, Badge, Group } from "@mantine/core";
+import { Text, Card, Image, Badge, Group, Button } from "@mantine/core";
 
 function AnimalCard({ dati }) {
   return (
@@ -18,6 +18,7 @@ function AnimalCard({ dati }) {
       <Text size="sm" style={{ lineHeight: 1.5 }}>
         {dati.description}
       </Text>
+      <Button onClick={() => console.log("Paņemts")}>Paņemt</Button>
     </Card>
   );
 }
